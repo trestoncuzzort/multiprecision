@@ -1,0 +1,498 @@
+{
+  "boost": {
+    "url": "https://github.com/boostorg/boost.git",
+    "sha": "afe5b9a6ad281e19154cbedafc5b24f970d16b26"
+  },
+  "multiprecision": {
+    "url": "https://github.com/trestoncuzzort/multiprecision.git",
+    "base": "8c5f8831fee4d6074bc7a3828a860a6b597c7c31",
+    "fix": "aa59fde9a0e27721c42057065e7f0d129f362370"
+  },
+  "boost_dependencies": [
+    {
+      "path": "libs/algorithm",
+      "url": "https://github.com/boostorg/algorithm.git",
+      "sha": "cfc892ccbe5e22605757fdc438df18a4e9aa4f9a"
+    },
+    {
+      "path": "libs/align",
+      "url": "https://github.com/boostorg/align.git",
+      "sha": "440281d63d1c0b7c7fde63ded67b4860b57d5756"
+    },
+    {
+      "path": "libs/any",
+      "url": "https://github.com/boostorg/any.git",
+      "sha": "ce22d4f4f2b0718ab7f653bfb797c0c41240f996"
+    },
+    {
+      "path": "libs/array",
+      "url": "https://github.com/boostorg/array.git",
+      "sha": "3df3aafd1924084d46988590bd94cf4c1b362859"
+    },
+    {
+      "path": "libs/assert",
+      "url": "https://github.com/boostorg/assert.git",
+      "sha": "612d35df55376c6412f0477ed62d4d241f8861b7"
+    },
+    {
+      "path": "libs/atomic",
+      "url": "https://github.com/boostorg/atomic.git",
+      "sha": "8903e3ab03ab2f08c287608f204770f70cd1d6e9"
+    },
+    {
+      "path": "libs/bind",
+      "url": "https://github.com/boostorg/bind.git",
+      "sha": "8cc29fc19db49e791743c821821e201b46ab9c66"
+    },
+    {
+      "path": "libs/chrono",
+      "url": "https://github.com/boostorg/chrono.git",
+      "sha": "1207f5b403459f3fa2900252edcde9051f904d22"
+    },
+    {
+      "path": "libs/compat",
+      "url": "https://github.com/boostorg/compat.git",
+      "sha": "349fb928b5ef800d1b8544cb4c382c39ecde0b3c"
+    },
+    {
+      "path": "libs/compute",
+      "url": "https://github.com/boostorg/compute.git",
+      "sha": "763f995ed15661701a6ade23159c31747711ed31"
+    },
+    {
+      "path": "libs/concept_check",
+      "url": "https://github.com/boostorg/concept_check.git",
+      "sha": "235e54ebf23be678045e0eeae90f47ca0e2c95ce"
+    },
+    {
+      "path": "libs/config",
+      "url": "https://github.com/boostorg/config.git",
+      "sha": "369d933b53ee985543a81c0329c57c86de121755"
+    },
+    {
+      "path": "libs/container",
+      "url": "https://github.com/boostorg/container.git",
+      "sha": "e6e9b064b8e183c74b8fabcf1380e0b61e6c6312"
+    },
+    {
+      "path": "libs/container_hash",
+      "url": "https://github.com/boostorg/container_hash.git",
+      "sha": "9f302c9a7b7f1779c06c1cfc3a506cd79675b9fe"
+    },
+    {
+      "path": "libs/conversion",
+      "url": "https://github.com/boostorg/conversion.git",
+      "sha": "2cbe691097d37907c9cc98bed69a5a4617c991e4"
+    },
+    {
+      "path": "libs/core",
+      "url": "https://github.com/boostorg/core.git",
+      "sha": "177a1c61748a61a03aaa1d4ec696f81625e66cff"
+    },
+    {
+      "path": "libs/date_time",
+      "url": "https://github.com/boostorg/date_time.git",
+      "sha": "6248d64ed94916e446c83a038e8c8208ebb262ee"
+    },
+    {
+      "path": "libs/describe",
+      "url": "https://github.com/boostorg/describe.git",
+      "sha": "ae199a79f7a75790b368613208e95270dae48755"
+    },
+    {
+      "path": "libs/detail",
+      "url": "https://github.com/boostorg/detail.git",
+      "sha": "be38ccb0c1f8d321877170df22dcf0d41af1d3cc"
+    },
+    {
+      "path": "libs/dynamic_bitset",
+      "url": "https://github.com/boostorg/dynamic_bitset.git",
+      "sha": "6e5931fef13f0da404c5066918ce89e4736b8842"
+    },
+    {
+      "path": "libs/endian",
+      "url": "https://github.com/boostorg/endian.git",
+      "sha": "4bffdf3defc2836409e72622066a40d8396088ae"
+    },
+    {
+      "path": "libs/exception",
+      "url": "https://github.com/boostorg/exception.git",
+      "sha": "4bc62d906127860fcdf6e61cc3420fccdc0dff27"
+    },
+    {
+      "path": "libs/filesystem",
+      "url": "https://github.com/boostorg/filesystem.git",
+      "sha": "f2977078df873799ca77d472117dedb0beebaecd"
+    },
+    {
+      "path": "libs/function",
+      "url": "https://github.com/boostorg/function.git",
+      "sha": "18650af5175ea247aebc60ff12db1b477123d5dc"
+    },
+    {
+      "path": "libs/function_types",
+      "url": "https://github.com/boostorg/function_types.git",
+      "sha": "0f9a7a9409c61fbe4d5217e94d1c6ec670c13b6b"
+    },
+    {
+      "path": "libs/fusion",
+      "url": "https://github.com/boostorg/fusion.git",
+      "sha": "017a8399fd62e81cf11ecea8c4063d055088458e"
+    },
+    {
+      "path": "libs/headers",
+      "url": "https://github.com/boostorg/headers.git",
+      "sha": "95930ca8f5d144fe345a2ad7a2a7728b8c3e5cd5"
+    },
+    {
+      "path": "libs/integer",
+      "url": "https://github.com/boostorg/integer.git",
+      "sha": "2b892563f8515d6acb2db4a0e8ac0fe9ee76f0bc"
+    },
+    {
+      "path": "libs/intrusive",
+      "url": "https://github.com/boostorg/intrusive.git",
+      "sha": "fa9e67d1ea0d2a9587f6421f0a992d205c64d63e"
+    },
+    {
+      "path": "libs/io",
+      "url": "https://github.com/boostorg/io.git",
+      "sha": "5c738076aa9aafc7392b2004c6b6f268b076a9f0"
+    },
+    {
+      "path": "libs/iterator",
+      "url": "https://github.com/boostorg/iterator.git",
+      "sha": "9340e6ebdf17e487faf990b9d2ec7abd6cbac180"
+    },
+    {
+      "path": "libs/lexical_cast",
+      "url": "https://github.com/boostorg/lexical_cast.git",
+      "sha": "e4aed0be65036eb7802bdc09d7e04e61b01a43bd"
+    },
+    {
+      "path": "libs/logic",
+      "url": "https://github.com/boostorg/logic.git",
+      "sha": "ebff10a43bf6512548eae231a1b9c81260dd98dc"
+    },
+    {
+      "path": "libs/math",
+      "url": "https://github.com/boostorg/math.git",
+      "sha": "775c9e085c078bb5af88a14f894622008abf1006"
+    },
+    {
+      "path": "libs/move",
+      "url": "https://github.com/boostorg/move.git",
+      "sha": "0027c0c063b1c54dbb3335dcb76fa6b944d5c267"
+    },
+    {
+      "path": "libs/mp11",
+      "url": "https://github.com/boostorg/mp11.git",
+      "sha": "0daffd6401724ddf473fd39d28f68e138d9a1303"
+    },
+    {
+      "path": "libs/mpl",
+      "url": "https://github.com/boostorg/mpl.git",
+      "sha": "9d1f81ffeb055ea1ce0d96370bf07c40a2843878"
+    },
+    {
+      "path": "libs/multi_index",
+      "url": "https://github.com/boostorg/multi_index.git",
+      "sha": "ba30d1e16e3623c4f17c6b4f089cadb68901fa35"
+    },
+    {
+      "path": "libs/optional",
+      "url": "https://github.com/boostorg/optional.git",
+      "sha": "f2212618a5679713fb8770be14d74a915a5170e5"
+    },
+    {
+      "path": "libs/phoenix",
+      "url": "https://github.com/boostorg/phoenix.git",
+      "sha": "cc9d1ec556d8a5b3d6c72f3554846868f64e21b8"
+    },
+    {
+      "path": "libs/pool",
+      "url": "https://github.com/boostorg/pool.git",
+      "sha": "4fcf1c5473b428e02ba6563bed5fec1308fc9536"
+    },
+    {
+      "path": "libs/predef",
+      "url": "https://github.com/boostorg/predef.git",
+      "sha": "80fea9874f2fc02351b3a1ade08867e7d510cf3f"
+    },
+    {
+      "path": "libs/preprocessor",
+      "url": "https://github.com/boostorg/preprocessor.git",
+      "sha": "cd1b1bd03900b68505822cfa25cb16851bd6caf1"
+    },
+    {
+      "path": "libs/property_tree",
+      "url": "https://github.com/boostorg/property_tree.git",
+      "sha": "7a7b02b09d38c542ff84d10c14eafdabc21105f1"
+    },
+    {
+      "path": "libs/proto",
+      "url": "https://github.com/boostorg/proto.git",
+      "sha": "ecdc3411943314c0082d76c128141dab24a9cbc5"
+    },
+    {
+      "path": "libs/random",
+      "url": "https://github.com/boostorg/random.git",
+      "sha": "459f9c27d2a1ab8c214e1afcaf3e9694e3ea9c3e"
+    },
+    {
+      "path": "libs/range",
+      "url": "https://github.com/boostorg/range.git",
+      "sha": "7481e429b023655a6e77799d5f2cf4788145d494"
+    },
+    {
+      "path": "libs/ratio",
+      "url": "https://github.com/boostorg/ratio.git",
+      "sha": "6eceadad2eb04f00b8cae5e400f7bee34c2d501f"
+    },
+    {
+      "path": "libs/rational",
+      "url": "https://github.com/boostorg/rational.git",
+      "sha": "421b19c3eaa3fc8019b435faeb02666ad929493b"
+    },
+    {
+      "path": "libs/regex",
+      "url": "https://github.com/boostorg/regex.git",
+      "sha": "a640597d6e118bf76ca2067b629fa1336f58409a"
+    },
+    {
+      "path": "libs/scope",
+      "url": "https://github.com/boostorg/scope.git",
+      "sha": "02cf83009bb55304371fc5c434da13d874a5b4d8"
+    },
+    {
+      "path": "libs/serialization",
+      "url": "https://github.com/boostorg/serialization.git",
+      "sha": "9778f4594b8cc458f31052f28caedea26aa04cc1"
+    },
+    {
+      "path": "libs/smart_ptr",
+      "url": "https://github.com/boostorg/smart_ptr.git",
+      "sha": "6e945160d788b8efdfc49ba4af1f8797cacd7c97"
+    },
+    {
+      "path": "libs/spirit",
+      "url": "https://github.com/boostorg/spirit.git",
+      "sha": "c317995c0fbdb1537323082521888232a7596c55"
+    },
+    {
+      "path": "libs/system",
+      "url": "https://github.com/boostorg/system.git",
+      "sha": "3072780969e6272ae0824408041c11a4e95c899e"
+    },
+    {
+      "path": "libs/test",
+      "url": "https://github.com/boostorg/test.git",
+      "sha": "ac3b45a246f76034501f32ee616a56119475a0a3"
+    },
+    {
+      "path": "libs/thread",
+      "url": "https://github.com/boostorg/thread.git",
+      "sha": "c501005a09731c969f647fffe85b721d6a47f151"
+    },
+    {
+      "path": "libs/throw_exception",
+      "url": "https://github.com/boostorg/throw_exception.git",
+      "sha": "0924b53b40d1da33301f94fb97518f5a7df31e9b"
+    },
+    {
+      "path": "libs/tokenizer",
+      "url": "https://github.com/boostorg/tokenizer.git",
+      "sha": "743082f58e964e7cef353a9678edaae055691ca0"
+    },
+    {
+      "path": "libs/tuple",
+      "url": "https://github.com/boostorg/tuple.git",
+      "sha": "704830d883825357a83e49a2aed2a07e734a74bb"
+    },
+    {
+      "path": "libs/type_index",
+      "url": "https://github.com/boostorg/type_index.git",
+      "sha": "5dfbd62f265eb01e77f78cd9675946f0afec2f89"
+    },
+    {
+      "path": "libs/type_traits",
+      "url": "https://github.com/boostorg/type_traits.git",
+      "sha": "e6275ccf01c9cf8775ef0cb6188bd58f3b167a0f"
+    },
+    {
+      "path": "libs/typeof",
+      "url": "https://github.com/boostorg/typeof.git",
+      "sha": "06748a1d65182a2dacfb9e0aa5dfc6230353b66d"
+    },
+    {
+      "path": "libs/unordered",
+      "url": "https://github.com/boostorg/unordered.git",
+      "sha": "636164f1357cf217374313820a457c31b50fcfc7"
+    },
+    {
+      "path": "libs/utility",
+      "url": "https://github.com/boostorg/utility.git",
+      "sha": "c3f5f523dead32e1a1bbc92b1c1864d713ec16ea"
+    },
+    {
+      "path": "libs/uuid",
+      "url": "https://github.com/boostorg/uuid.git",
+      "sha": "1133e97289eb522c6053f1ef18626d2749947faf"
+    },
+    {
+      "path": "libs/variant",
+      "url": "https://github.com/boostorg/variant.git",
+      "sha": "d3e821cbf49589124f0fb77ff87b757d3c47d303"
+    },
+    {
+      "path": "libs/variant2",
+      "url": "https://github.com/boostorg/variant2.git",
+      "sha": "fa7d53b5cd1bda93e93e11d7974881ccabdb945a"
+    },
+    {
+      "path": "libs/winapi",
+      "url": "https://github.com/boostorg/winapi.git",
+      "sha": "094612ee33a8dce960cd075537266fdb4788d059"
+    },
+    {
+      "path": "tools/boost_install",
+      "url": "https://github.com/boostorg/boost_install.git",
+      "sha": "af7ea67bbcd25ecc8a62916e8686bae05fe04733"
+    },
+    {
+      "path": "tools/boostdep",
+      "url": "https://github.com/boostorg/boostdep.git",
+      "sha": "fbc2fc704e0153f45e1f4c4a4f16e01119dd2479"
+    },
+    {
+      "path": "tools/build",
+      "url": "https://github.com/boostorg/build.git",
+      "sha": "05b6b638b54e1f013fb8b281f5020e337be31363"
+    },
+    {
+      "path": "tools/cmake",
+      "url": "https://github.com/boostorg/cmake.git",
+      "sha": "7bce8efdc57134dc86e70ac3cd914e390a6cf30d"
+    },
+    {
+      "path": "libs/numeric/conversion",
+      "url": "https://github.com/boostorg/numeric_conversion.git",
+      "sha": "d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8"
+    },
+    {
+      "path": "libs/numeric/interval",
+      "url": "https://github.com/boostorg/interval.git",
+      "sha": "27a6fdf5ac71335344a084a6957e6282db3dc658"
+    },
+    {
+      "path": "libs/numeric/ublas",
+      "url": "https://github.com/boostorg/ublas.git",
+      "sha": "12034976d0d66030a0dfc8d61dab82d99a5e7ba0"
+    }
+  ],
+  "sources": {
+    "base": {
+      "include/boost/multiprecision/eigen.hpp": {
+        "git_lf": "6c6bcbb0f7616617e8207413d8db2442e855cbe266e6cabff03727c165d73fdc",
+        "windows_crlf": "074dd7c4a9d8f91f4add6ca7f7947606e3cbef4bc545941c1d1eafe086b4bfb8"
+      },
+      "include/boost/multiprecision/gmp.hpp": {
+        "git_lf": "2a30edabfa0349b9e131dbbb4b7fdd02ae07acf8b64a10727af43ea0bc809c43",
+        "windows_crlf": "555a5752f686dbb0dc8c12e4a800ab2a5f2a0fb972491ab3ae7ef410b385bc08"
+      },
+      "include/boost/multiprecision/mpfr.hpp": {
+        "git_lf": "32b790d7ed7100ea4b030b70e7d42187dc20671ec9a99a4ec9e4f22a64093334",
+        "windows_crlf": "64e77f53af200c94bc4881d4fe19d5df070d0a5253022e9b6b5f00608309d947"
+      },
+      "test/Jamfile.v2": {
+        "git_lf": "5ff7cd59fe4b7e8dd2f437dfba79a1e85ad0445465d9de26e288e55aa581b2fc",
+        "windows_crlf": "84a71c7d866a1397bd2e63ba1f8bd04520854863f725c20044f31174888ff33b"
+      }
+    },
+    "fix": {
+      "include/boost/multiprecision/eigen.hpp": {
+        "git_lf": "d11bbd1def44166980506792684ac9c3d7101787c0a50d80e5710f15641736f6",
+        "windows_crlf": "2209fcacee2054ebba40f23aac1b0e8d7cd975c3bfbd803d0e5c564608e99dca"
+      },
+      "include/boost/multiprecision/gmp.hpp": {
+        "git_lf": "05badc3c6ca575f6494ed0fcf5a19f8b70e770e934df1409c5159f07df28ebcd",
+        "windows_crlf": "7f50c289cb9608e8d61215499309cca314a5a3f506e85cec8460541e8ea23fb9"
+      },
+      "include/boost/multiprecision/mpfr.hpp": {
+        "git_lf": "cefe764d8529f313e04c1200f180cd43edcaad99d6f936e02e360e7c91330667",
+        "windows_crlf": "a161af473a5159ec10521f171efe832b9bc56c28a04d9aff05a22930a7cb36a3"
+      },
+      "test/Jamfile.v2": {
+        "git_lf": "a4d648e65e0cde88ff422908c4d35d1062e676f9ed5d9f88229e3f9906d12a65",
+        "windows_crlf": "19290c383a95714bae2b30e7337eb2ec6830543853ccccd7aca1f07975a9fac8"
+      },
+      "test/test_eigen_numtraits.cpp": {
+        "git_lf": "dc27373aa10bab336f55ff8a081ab79353c1a8fa2d021046b273136782be8855",
+        "windows_crlf": "66a1768977f1b53ed3a3c98e44a8e24fd45466b85e4ed98cfbc857bd43908539"
+      }
+    }
+  },
+  "eigen": {
+    "3.4.0": {
+      "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz",
+      "filename": "eigen-3.4.0.tar.gz",
+      "sha256": "8586084f71f9bde545ee7fa6d00288b264a2b7ac3607b974e54d13e7162c1c72",
+      "include_prefix": "eigen-3.4.0",
+      "header_file_count": 535,
+      "header_tree_sha256": "1c72ad55650a996c7c2cb4617d9cbd9ea2cce2cc411a61e9edbc1291f2432b78",
+      "note": "Only portable header subtree is extracted/compiled; no package binary is executed."
+    },
+    "5.0.1": {
+      "url": "https://archive.archlinux.org/packages/e/eigen/eigen-5.0.1-2-x86_64.pkg.tar.zst",
+      "filename": "eigen-5.0.1-2-x86_64.pkg.tar.zst",
+      "sha256": "d2aa0db929ba7a72cebd2675d74526a31302fc921fe6b846f173d6392e89cfd4",
+      "include_prefix": "usr/include/eigen3",
+      "header_file_count": 600,
+      "header_tree_sha256": "80ea528c8f8f040d3c6e9c6cab797bcbe4a0bb3c8e7e9d844115c7692d8b427b",
+      "note": "Only portable header subtree is extracted/compiled; no package binary is executed."
+    }
+  },
+  "native_packages": {
+    "gmp": {
+      "version": "6.3.0-2",
+      "url": "https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-gmp-6.3.0-2-any.pkg.tar.zst",
+      "filename": "mingw-w64-x86_64-gmp-6.3.0-2-any.pkg.tar.zst",
+      "sha256": "8924433974c4add46cb46ea4f6ef283b5c5139d3f552375115b5580f855015cc"
+    },
+    "mpfr": {
+      "version": "4.2.2-3",
+      "url": "https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-mpfr-4.2.2-3-any.pkg.tar.zst",
+      "filename": "mingw-w64-x86_64-mpfr-4.2.2-3-any.pkg.tar.zst",
+      "sha256": "9ecbc05f1f855bc656a8f111d367f61fbd90dbbfcf469ba74d6d5dd1ec07a542"
+    },
+    "mpc": {
+      "version": "1.4.1-1",
+      "url": "https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-mpc-1.4.1-1-any.pkg.tar.zst",
+      "filename": "mingw-w64-x86_64-mpc-1.4.1-1-any.pkg.tar.zst",
+      "sha256": "ce024a90d59c8a591d2c88ef94a386c6367750bf9edc6a944e80815ec5d93344"
+    }
+  },
+  "native_files": {
+    "bin/libgmp-10.dll": "37248cda33845e7c5c35a574e57da762dd0a8268f0270d179f30a33746809681",
+    "bin/libgmpxx-4.dll": "9a667d5dc4ca5a49d1d5fdbfa83866e0e04fbab1c304b49b67951498159a8246",
+    "include/gmp.h": "178db66910305eed62d2d3fdd1f203a45febaa2aaa64690b608c7d95f2a1a3cc",
+    "include/gmpxx.h": "b287e1197a745582acb9c4aa0d2f2ffa16fabaeeabd0dee836553771556a00ea",
+    "lib/libgmp.a": "cea4c8ae34263d44e982ff5f7a3a6a38095d539045c0e50e9ee462c5d83784f5",
+    "lib/libgmp.dll.a": "ffe90958618f8e269224fa4b274ab3b88d7ca4eebb546a1b9ed79411c667c260",
+    "lib/libgmpxx.a": "08896c714e6fb3bb39f47ab56fff5821aea54e078873a2204220109ecbda0173",
+    "lib/libgmpxx.dll.a": "d6fef4c233ff45b00fc4bb9bacb9e8f619e972b0e291cddc374c494c4b88005b",
+    "bin/libmpfr-6.dll": "ed5f7bdf777f0f6af00ba193ce4b04e12efa787245a946a631db736e49c0bb1a",
+    "include/mpf2mpfr.h": "3ab0b914a208a584c5309060eadf1bb0ac79bd6a0581e04142f813dbb0c752a3",
+    "include/mpfr.h": "588c2bd606cba060afb49cd024f9119e996089a341a99d1dc7e0367622335a13",
+    "lib/libmpfr.a": "46f850f6f48d61cff78c7cd559d56f74a24ec59d8b7556e47cc729403fdb5477",
+    "lib/libmpfr.dll.a": "3b3ee90bc4d5893c1dbe99e6dba31d34b4dc11aaff3eb90814eba35e2244dd0b",
+    "bin/libmpc-3.dll": "3a1d4c692c7a2af929ae043a2c88903304b84917bd84ca46bf75bb5389b11be8",
+    "include/mpc.h": "7a0674cb65cf62d035a44a2946c92d4647ef0a42771ee354723d6e443da0aa51",
+    "lib/libmpc.a": "9fdff85f3641c00736ec4c756a747c2f8acd20877044ff8fd65574d001fc4f39",
+    "lib/libmpc.dll.a": "0ff5b092eb87f8fa6a1ce97a3c6331b948351a8cfdd49bf7c8ba54146ad4f28d"
+  },
+  "probe_sha256": {
+    "git_lf": "1cc01a576592f19c94ca173abe03190416d839c524cc57bb2d8ca206d1784dcc",
+    "windows_crlf": "4744b6084bc3e892dd8d3e37c2aa5627d429551d1c139871be24d2622df400d8"
+  }
+}

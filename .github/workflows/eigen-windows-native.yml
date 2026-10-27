@@ -1,0 +1,49 @@
+name: Eigen native Windows validation
+
+on:
+  push:
+    branches: [validation/eigen-windows-native]
+
+permissions:
+  contents: read
+
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        compiler: [msvc, mingw]
+    runs-on: windows-2022
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: driver
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Set up MSVC
+        if: matrix.compiler == 'msvc'
+        uses: egor-tensin/vs-shell@v2
+        with:
+          arch: x64
+      - name: Set up native MinGW compiler
+        if: matrix.compiler == 'mingw'
+        id: msys
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: false
+          install: mingw-w64-x86_64-gcc
+      - name: Validate MSVC pure C++ backends
+        if: matrix.compiler == 'msvc'
+        run: python driver/validation/verify_eigen_windows.py --compiler msvc
+      - name: Validate MinGW default and GMP/MPFR/MPC backends
+        if: matrix.compiler == 'mingw'
+        run: python driver/validation/verify_eigen_windows.py --compiler mingw --compiler-path '${{ steps.msys.outputs.msys2-location }}/mingw64/bin/g++.exe'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eigen-windows-${{ matrix.compiler }}
+          path: evidence/
+          if-no-files-found: error
